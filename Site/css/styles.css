@@ -2,22 +2,66 @@ body {
 	background-color: black;
 }
 
+/*HEADER START */
+
+#header-nav {
+	background-color: black;
+	border-width: 0px;
+	margin-top: 25px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
 #header-nav a:hover {
-	color: darkred;
+	background-color: red;
+	color: white;
 }
 
-.navbar-header ul li a:active {
-	background-color: transparent;
-	color: red;
+#header-nav a:active {
+	background-color: darkred;
+	color: white;
 }
 
-#nav-list-right {
-	float: right;
-	width: 45%;
+.navbar-default .navbar-nav>.active>a {
+	background-color: red;
+	color: white;
 }
 
-#nav-list-left {
-	float: left;
-	width:  50%;
+#collapsable-nav.navbar-collapse {
+	text-align: center;
+}
+
+#navbarToggle {
 	clear: none;
+	margin-top: -40px
+}
+
+.navbar-brand {
+	float: none;
+	clear: none;
+}
+
+h1 {
+	color: white;
+	font-size: 42px;
+	margin-top: 30px;
+}
+
+.navbar-brand h1{
+	font-size: 36px;
+	margin-top: 0;
+  	margin-bottom: 0;
+  	line-height: .75;
+}
+
+/*HEADER END */
+
+/*CONTENT START*/
+
+p {
+	color: white;
+	margin: 40px 40px 0px 40px;
+	text-align: justify;
 }
