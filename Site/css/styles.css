@@ -1,0 +1,23 @@
+body {
+	background-color: black;
+}
+
+#header-nav a:hover {
+	color: darkred;
+}
+
+.navbar-header ul li a:active {
+	background-color: transparent;
+	color: red;
+}
+
+#nav-list-right {
+	float: right;
+	width: 45%;
+}
+
+#nav-list-left {
+	float: left;
+	width:  50%;
+	clear: none;
+}
